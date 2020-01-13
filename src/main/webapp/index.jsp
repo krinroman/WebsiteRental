@@ -80,7 +80,7 @@
             <%}%>
         </div>
         <div class="col-8" style="max-height: 200px;">
-            <a href="<%=url%>" class="btn-link"><h3><%=avitoObjectApartment.getTitle()%></h3></a>
+            <a href="<%=url%>" class="btn-link" target="_blank"><h3><%=avitoObjectApartment.getTitle()%></h3></a>
             <div class="text-dark"><%=avitoObjectApartment.getAddress()%></div>
             <h5><%=avitoObjectApartment.getPrice()%></h5>
             <div style="height: 120px; overflow: hidden; text-overflow: ellipsis;">
